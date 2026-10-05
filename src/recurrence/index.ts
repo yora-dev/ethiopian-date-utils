@@ -1,1 +1,1 @@
-export { };
+export { Recurrence, recurrence, type RecurrenceConfig } from './recurrenceEngine.js';

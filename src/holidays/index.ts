@@ -1,1 +1,1 @@
-export { };
+export { getHolidays, registerHoliday, type EthiopianHoliday, type CustomHolidayInput } from './holidayEngine.js';

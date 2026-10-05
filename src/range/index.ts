@@ -1,1 +1,1 @@
-export { };
+export { EthiopianDateRange, ethiopianRange } from './EthiopianDateRange.js';
