@@ -1,1 +1,1 @@
-export { };
+export { toGeezNumeral, fromGeezNumeral } from './geez.js';
