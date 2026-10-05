@@ -62,13 +62,11 @@ export function jdnToEthiopian(jdn: number): EthiopianDateTuple {
     dayInCycle += 1461;
   }
 
-  let yearInCycle = Math.floor(dayInCycle / 365);
-  if (yearInCycle === 4) {
-    yearInCycle = 3; // Handles the 366th day of leap year
-  }
+  const yearInCycle = dayInCycle === 1095 ? 2 : Math.floor(dayInCycle / 365);
 
   const year = cycle * 4 + yearInCycle + 1;
-  const dayInYear = dayInCycle - (yearInCycle === 3 ? 1095 : yearInCycle * 365);
+  const yearOffset = yearInCycle * 365 + (yearInCycle > 2 ? 1 : 0);
+  const dayInYear = dayInCycle - yearOffset;
 
   const month = Math.min(Math.floor(dayInYear / 30) + 1, 13);
   const day = dayInYear - (month - 1) * 30 + 1;
