@@ -1,1 +1,1 @@
-export { };
+export { parseEthiopianDate, type ParseOptions } from './parser.js';
