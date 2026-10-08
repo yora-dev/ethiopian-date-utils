@@ -1,7 +1,7 @@
 {
   "name": "ethiopian-date-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": " A comprehensive library for working with Ethiopian dates, calendars, holidays, and business days.",
   "main": "index.js",
   "author": "",
   "type": "commonjs",
