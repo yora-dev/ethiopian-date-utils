@@ -45,7 +45,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yora-dev/ethiopian-date-utils"
+    "url": "https://github.com/yora-dev/ethiopian-date-utils.git"
   },
   "bugs": {
     "url": "https://github.com/yora-dev/ethiopian-date-utils/issues"
