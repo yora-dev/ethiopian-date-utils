@@ -4,12 +4,12 @@
   "description": " A comprehensive library for working with Ethiopian dates, calendars, holidays, and business days.",
   "main": "index.js",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
@@ -45,12 +45,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/yora-dev/ethiopian-date-utils"
   },
   "bugs": {
-    "url": "https://github.com"
+    "url": "https://github.com/yora-dev/ethiopian-date-utils/issues"
   },
-  "homepage": "https://github.com/#readme",
+  "homepage": "https://github.com/yora-dev/ethiopian-date-utils#readme",
   "devDependencies": {
     "@types/node": "^26.6.4",
     "@typescript-eslint/eslint-plugin": "^8.71.0",
